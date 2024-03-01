@@ -53,7 +53,7 @@ plt.show()
 
 Depois dessas análises quis entender quais épocas do ano os consumidores tendem a comprar mais e se existem variações de preços nos períodos, para analisar estratégias de mercado e identificar padrões temporais.
 
-Através das análises mensais, foi possível indentificar alguns picos indicando períodos de maiores compras como em dezembro de 2018 que teve uma aumento de mais de 100% em relação ao mês outubro, mas quando analisamos a transiçaõ de janeiro/fevereiro vemos que teve uma queda gigante nas compras, aproximadamente 250%, indicando um ponto de alerta aos vendedores, um dos fatores dessa discrepância entre as compras de transiçao do ano deve-se pelas datas comemorativas, recebimento do 13º salário e principalmente férias, vemos acontecer algo semelhante em julho (período de férias), onde existe uma crescente, atinge uma máxima e depois despenca, como vemos na figura abaixo:
+Através das análises mensais, foi possível indentificar alguns picos indicando períodos de maiores compras como em dezembro de 2018 que teve uma aumento de mais de 100% em relação ao mês outubro, mas quando analisamos a transiçaõ de janeiro/fevereiro vemos que teve uma queda gigante nas compras, aproximadamente 250%, indicando um ponto de alerta aos vendedores, um dos fatores dessa discrepância entre as compras de transiçao do ano deve-se pelas datas comemorativas, recebimento do 13º salário e principalmente férias, vemos acontecer algo semelhante em julho (período de férias), onde existe uma crescente, atinge um pico e depois despenca, atingindo a mínima, como vemos na figura abaixo:
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/compras%20mensais.png?raw=true)
 
