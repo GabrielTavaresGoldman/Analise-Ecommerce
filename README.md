@@ -153,7 +153,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Em seguida analisei o percentual de representatividade das vendas em relação ao total vendido por Estado e através disso, descobri que talvez o principal fator que influenciou no desempenho daqueles Estados que ficaram em TOP3 nas primeiras análises (São Paulo, Pernambuco e Rio Grande do Norte) foi a relação de vendas com esses 5 produtos, 57% das vendas desses produtos estão concentradas nesses 3 Estados, explicando o motivo dessa performance de vendas nesses locais.
+Em seguida analisei o percentual de representatividade das vendas em relação ao total vendido por Estado e através disso, descobri que talvez, o principal fator que influenciou no desempenho daqueles Estados que ficaram em TOP3 nas primeiras análises (São Paulo, Pernambuco e Rio Grande do Norte) foi a relação de vendas com esses 5 produtos, 57% das vendas desses produtos estão concentradas nesses 3 Estados, explicando o motivo dessa performance de vendas nesses locais.
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/porcent%20de%20vendas%20dos%20top%205%20prod%20por%20estado.png?raw=true)
 
