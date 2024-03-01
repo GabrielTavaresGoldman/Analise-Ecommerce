@@ -172,7 +172,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-*Conclusão*
+**Conclusão**
 
 A análise exploratória dos dados de e-commerce revelou insights valiosos sobre o desempenho das vendas, padrões sazonais e influências nos resultados. Identificamos que os estados de São Paulo, Pernambuco e Rio Grande do Norte se destacaram tanto em quantidade de produtos vendidos quanto em valor total das vendas, destacando-se como mercados-chave.
 
