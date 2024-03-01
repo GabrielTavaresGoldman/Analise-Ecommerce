@@ -1,4 +1,4 @@
-![image](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/assets/149710830/86b325c5-f783-4c06-bf41-b7cabfd33e75)🎯 **Objetivo:**
+🎯 **Objetivo:**
 Este repositório tem como objetivo demonstrar uma análise exploratória de dados de e-commerce (fictícios) retirados do SQL, utilizando Python.
 
 A primeira coisa que eu fiz foi carregar o arquivo e excluir as colunas que não seriam relevantes na minha análise, logo em seguida, renomeei algumas colunas para que a informação tenha mais clareza.
@@ -19,7 +19,7 @@ print(ecommerce.head())
 ecommerce.rename(columns={'name_1': 'product'}, inplace=True)
 ecommerce.rename(columns={'name': 'category'}, inplace=True)
 ```
-Após a preparação dos dados, calculei a quantidade comprada dos produtos por estado. Nessa análise foi possível identificar 3 estados que se destacaram em quantidade de produtos comprados, São Paulo em 1º lugar com 5736 produtos, seguido de Pernambuco em 2º lugar com 5275 produtos e em 3º lugar Rio Grande do Norte com 4834 produtos.
+Após a preparação dos dados, calculei a quantidade comprada dos produtos por Estado. Nessa análise foi possível identificar 3 Estados que se destacaram em quantidade de produtos comprados, São Paulo em 1º lugar com 5736 produtos, seguido de Pernambuco em 2º lugar com 5275 produtos e em 3º lugar Rio Grande do Norte com 4834 produtos.
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/qtdde%20comprada%20p%20estado.png?raw=true)
 
@@ -174,13 +174,13 @@ plt.show()
 
 **Conclusão**
 
-A análise exploratória dos dados de e-commerce revelou insights valiosos sobre o desempenho das vendas, padrões sazonais e influências nos resultados. Identificamos que os estados de São Paulo, Pernambuco e Rio Grande do Norte se destacaram tanto em quantidade de produtos comprados quanto em valor total das compras, destacando-se como mercados-chave.
+A análise exploratória dos dados de e-commerce revelou insights valiosos sobre o desempenho das vendas, padrões sazonais e influências nos resultados. Identificamos que os Estados de São Paulo, Pernambuco e Rio Grande do Norte se destacaram tanto em quantidade de produtos comprados quanto em valor total das compras, destacando-se como mercados-chave.
 
 Além disso, observamos padrões sazonais significativos, com picos de compras durante os períodos de férias e datas comemorativas, sugerindo a importância de estratégias de marketing direcionadas a esses momentos.
 
 A correlação entre a quantidade comprada e o preço médio dos produtos evidenciou uma tendência de que, quando a quantidade comprada aumenta, o preço médio tende a diminuir, e vice-versa, embora essa associação não seja extremamente forte.
 
-Por fim, a análise dos produtos mais comprados revelou a importância estratégica de alguns itens-chave, que representam uma parcela significativa da receita total e têm um impacto direto no desempenho de compras por estado.
+Por fim, a análise dos produtos mais comprados revelou a importância estratégica de alguns itens-chave, que representam uma parcela significativa da receita total e têm um impacto direto no desempenho de compras por Estado.
 
 Esta análise fornece uma base sólida para a tomada de decisões informadas e destaca a importância da análise de dados para o sucesso no ambiente competitivo do e-commerce.
 
