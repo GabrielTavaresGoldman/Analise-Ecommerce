@@ -34,7 +34,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Em seguida, sabendo que a quantidade de vendas pode não ser o principal indicador de sucesso em vendas, calculei o valor total vendido em reais de cada um dos Estados, confirmando o insight calculado anteriormente, os mesmos Estados com as mesmas posições, destacando-se novamente, agora em valores gastos. São Paulo com R$2.843.928,00 (R$495,80 por produto), Pernambuco com R$2.696.765 (R$511,23 por produto) e Rio Grande do Norte com R$2.240.602,00 (R$463,50 por produto) 
+Em seguida, sabendo que a quantidade de vendas pode não ser o principal indicador de sucesso em vendas, calculei o valor total vendido em reais de cada um dos Estados, confirmando o insight calculado anteriormente, os mesmos Estados com as mesmas posições, destacando-se novamente, agora em valores gastos. São Paulo com R$2.843.928,00 (R$495,80 por produto), Pernambuco com R$2.696.765 (R$511,23 por produto) e Rio Grande do Norte com R$2.240.602,00 (R$463,50 por produto).
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/Total%20Vendido%20por%20Estado.png?raw=true)
 
@@ -132,7 +132,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Depois analisei o percentual do valor total de cada produto em relação ao valor total de vendas para entender a representatividade que esses produtos tem em relação à receita e foi possível observar que os 5 produtos juntos representam 47,43% do valor total de vendas, significando que os mesmos, impactam diretamenteP na relação de quantidade/valor. 
+Depois analisei o percentual do valor total de cada produto em relação ao valor total de vendas para entender a representatividade que esses produtos tem em relação à receita e foi possível observar que os 5 produtos juntos representam 47,43% do valor total de vendas, significando que os mesmos, impactam diretamente na relação de quantidade/valor. 
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/porcent%20produtos%20em%20rela%C3%A7%C3%A3o%20ao%20total.png?raw=true)
 
