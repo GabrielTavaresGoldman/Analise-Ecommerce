@@ -34,7 +34,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Em seguida, sabendo que a quantidade de compras pode não ser o principal indicador de sucesso, calculei o valor total comprado em reais de cada um dos Estados, confirmando o insight calculado anteriormente, os mesmos Estados com as mesmas posições, destacando-se novamente, agora em valores gastos. São Paulo com R$2.843.928,00 (R$495,80 por produto), Pernambuco com R$2.696.765 (R$511,23 por produto) e Rio Grande do Norte com R$2.240.602,00 (R$463,50 por produto).
+Em seguida, sabendo que a quantidade de compras pode não ser o principal indicador de sucesso, calculei o valor total comprado em reais de cada um dos Estados, confirmando a análise calculada anteriormente, os mesmos Estados com as mesmas posições, destacando-se novamente, agora em valores gastos. São Paulo com R$2.843.928,00 (R$495,80 por produto), Pernambuco com R$2.696.765 (R$511,23 por produto) e Rio Grande do Norte com R$2.240.602,00 (R$463,50 por produto).
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/total%20com%20por%20estado.png?raw=true)
 
@@ -104,7 +104,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Após essas análises, decidi analisar a correlação entre a quantidade comprada por trimestre e o preço médio por trimestre para identificar se existe de fato algums relação entre as duas variáveis e obtive o resultado de -0,25. Essa correlação sugere que, em geral, mesmo que fraca, há uma tendência de que, quando a quantidade comprada aumenta em um trimestre, o preço médio dos produtos tende a diminuir, e vice-versa. No entanto, essa associação não é extremamente forte, mas ainda é significativa o suficiente para ser considerada na análise das compras trimestrais.
+Com isso, decidi analisar a correlação entre a quantidade comprada por trimestre e o preço médio por trimestre para identificar se existe de fato algums relação entre as duas variáveis e obtive o resultado de -0,25. Essa correlação sugere que, em geral, mesmo que fraca, há uma tendência de que, quando a quantidade comprada aumenta em um trimestre, o preço médio dos produtos tende a diminuir, e vice-versa. No entanto, essa associação não é extremamente forte, mas ainda é significativa o suficiente para ser considerada na análise das compras trimestrais.
 
 ```python
 correlation = quarterly_purchases.corr(average_price_per_quarter)
