@@ -53,7 +53,7 @@ plt.show()
 
 Depois dessas análises quis entender quais épocas do ano os consumidores tendem a comprar mais e se existem variações de preços nos períodos, para analisar estratégias de mercado e identificar padrões temporais.
 
-Através das análises mensais, foi possível indentificar alguns picos indicando períodos de maiores compras como em dezembro de 2018 que teve uma aumento de mais de 100% em relação ao mês outubro, mas quando analisamos a transiçaõ de janeiro/fevereiro vemos que teve uma queda gigante nas compras, aproximadamente 250%, indicando um ponto de alerta aos vendedores, um dos fatores dessa discrepância entre as compras de transiçao do ano deve-se pelas datas comemorativas, recebimento do 13º salário e principalmente férias, vemos acontecer algo semelhante em julho (período de férias), onde existe uma crescente, atinge um pico e depois despenca, atingindo a mínima, como vemos na figura abaixo:
+Através das análises mensais, foi possível indentificar alguns picos indicando períodos de maiores compras como em dezembro de 2018 que teve uma aumento de mais de 100% em relação ao mês outubro, mas quando analisamos a transição de janeiro/fevereiro vemos que teve uma queda nas compras, aproximadamente 250%, indicando um ponto de alerta aos vendedores, um dos fatores dessa discrepância entre as compras de transição do ano deve-se pelas datas comemorativas, recebimento do 13º salário e principalmente férias, vemos acontecer algo semelhante em julho (período de férias), onde existe uma crescente, atinge um pico e depois despenca, atingindo a mínima, como vemos na figura abaixo:
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/compras%20mensais.png?raw=true)
 
@@ -70,7 +70,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Após essa análise mensal, decidi realizar uma análise trimestral para identificar outros padrões e tendências, e claramente ficou evidente que o 2º trimestre foi o pior trimestre, com um declíneo nas compras atingindo sua mínima, esse insight é muito valioso para qualquer vendedor, pois identificando períodos de baixa nas vendas é possível traçar estratégias antecipadamente e reservar capital para evitar supresas inesperadas. 
+Após essa análise mensal, decidi realizar uma análise trimestral para identificar outros padrões e tendências, e claramente ficou evidente que o 2º trimestre foi o pior, com um declíneo nas compras atingindo sua mínima, esse insight é muito valioso para qualquer vendedor, pois identificando períodos de baixa nas vendas é possível traçar estratégias antecipadamente e reservar capital para evitar supresas inesperadas. 
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/compras%20trimestrais.png?raw=true)
 
@@ -87,7 +87,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Outra análise que decidi realizar foi o preço médio dos produtos, tentando identificar estratégias de preço, altas e baixas e consegui identificar um aumento dos preços no 2º trimestre, que pode ser um dos influenciadores da queda de compras no período, também foi possível observar uma crescente gigante no aumento dos preços do 3º pro 4º trimestre, indicador que pode explicar o motivo dessa redução se compararmos o 4º trimestre de 2017 com o 4º trimestre de 2018, onde houve uma queda de aproximadamente 30% das compras.
+Outra análise que decidi realizar foi o preço médio dos produtos, tentando identificar estratégias de preço, altas e baixas e consegui identificar um aumento dos preços no 2º trimestre, que pode ser um dos influenciadores da queda de compras no período, também foi possível observar uma crescente no aumento dos preços do 3º pro 4º trimestre, indicador que pode explicar o motivo dessa redução se compararmos o 4º trimestre de 2017 com o 4º trimestre de 2018, onde houve uma queda de aproximadamente 30% das compras.
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/pre%C3%A7o%20m%C3%A9dio%20dos%20produtos%20por%20trimestre.png?raw=true)
 
@@ -104,7 +104,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Com isso, decidi analisar a correlação entre a quantidade comprada por trimestre e o preço médio por trimestre para identificar se existe de fato algums relação entre as duas variáveis e obtive o resultado de -0,25. Essa correlação sugere que, em geral, mesmo que fraca, há uma tendência de que, quando a quantidade comprada aumenta em um trimestre, o preço médio dos produtos tende a diminuir, e vice-versa. No entanto, essa associação não é extremamente forte, mas ainda é significativa o suficiente para ser considerada na análise das compras trimestrais.
+Com isso, decidi analisar a correlação entre a quantidade comprada por trimestre e o preço médio por trimestre para identificar se existe de fato alguma relação entre as duas variáveis e obtive o resultado de -0,25. Essa correlação sugere que em geral, mesmo que fraca, há uma tendência de que, quando a quantidade comprada aumenta em um trimestre, o preço médio dos produtos tende a diminuir e vice-versa. No entanto, essa associação não é extremamente forte, mas ainda é significativa o suficiente para ser considerada na análise das compras trimestrais.
 
 ```python
 correlation = quarterly_purchases.corr(average_price_per_quarter)
@@ -114,7 +114,7 @@ correlation = quarterly_purchases.corr(average_price_per_quarter)
 
 Com todas essas análises, busquei compreender a influência dos produtos no desempenho das vendas.
 
-A primeira coisa que fiz foi identificar quais foram top 5 produtos em termos de valor e o total comprado de cada um deles.
+A primeira coisa que fiz, foi identificar quais foram top 5 produtos em termos de valor e o total comprado de cada um deles.
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/top%205%20com%20maior%20valorde%20compra.png?raw=true)
 
@@ -132,7 +132,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Depois analisei o percentual do valor total de cada produto em relação ao valor total de compras para entender a representatividade que esses produtos tem em relação à receita, foi possível observar que os 5 produtos juntos representam 47,43% do valor total comprado, significando que os mesmos, impactam diretamente na relação de quantidade/valor. 
+Depois analisei o percentual do valor total de cada produto em relação ao valor total de compras para entender a representatividade que esses produtos tem em relação à receita, foi possível observar que os 5 produtos juntos representam 47,43% do valor total comprado, significando que os mesmos impactam diretamente na relação de quantidade/valor. 
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/%25%20valor%20total%20do%20produto%20x%20geral.png?raw=true)
 
@@ -153,7 +153,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Em seguida analisei o percentual de representatividade das compras em relação ao total comprado por Estado, através disso, descobri que talvez, o principal fator que influenciou no desempenho daqueles Estados que ficaram em TOP3 nas primeiras análises (São Paulo, Pernambuco e Rio Grande do Norte) foi a relação de compras com esses 5 produtos pois aproximadamente 57% das compras desses produtos estão concentradas nesses 3 Estados, explicando o motivo dessa performance de compras nesses locais.
+Em seguida analisei o percentual de representatividade das compras em relação ao total comprado por Estado, através disso, descobri que talvez o principal fator que influenciou no desempenho daqueles Estados que ficaram em TOP3 nas primeiras análises (São Paulo, Pernambuco e Rio Grande do Norte) foi a relação de compras com esses 5 produtos pois aproximadamente 57% das compras desses produtos estão concentradas nesses 3 Estados, explicando o motivo dessa performance de compras nesses locais.
 
 ![](https://github.com/GabrielTavaresGoldman/Analise-Ecommerce/blob/GabrielTavaresGoldman-patch-1/%25%20compras%20top%205%20por%20estado.png?raw=true)
 
@@ -174,9 +174,9 @@ plt.show()
 
 **Conclusão**
 
-A análise exploratória dos dados de e-commerce revelou insights valiosos sobre o desempenho das vendas, padrões sazonais e influências nos resultados. Identificamos que os Estados de São Paulo, Pernambuco e Rio Grande do Norte se destacaram tanto em quantidade de produtos comprados quanto em valor total das compras, destacando-se como mercados-chave.
+A análise exploratória dos dados de e-commerce revelou insights valiosos sobre o desempenho das vendas, padrões sazonais e influências nos resultados. Foi identificado que os Estados de São Paulo, Pernambuco e Rio Grande do Norte se destacaram tanto em quantidade de produtos comprados quanto em valor total das compras, destacando-se como mercados-chave.
 
-Além disso, observamos padrões sazonais significativos, com picos de compras durante os períodos de férias e datas comemorativas, sugerindo a importância de estratégias de marketing direcionadas a esses momentos.
+Além disso, observamos padrões sazonais significativos, com picos de compras durante os períodos de férias e datas comemorativas, sugerindo a importância de estratégias de marketing direcionadas à esses momentos.
 
 A correlação entre a quantidade comprada e o preço médio dos produtos evidenciou uma tendência de que, quando a quantidade comprada aumenta, o preço médio tende a diminuir, e vice-versa, embora essa associação não seja extremamente forte.
 
