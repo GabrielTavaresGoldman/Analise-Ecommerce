@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-caminho_arquivo = r"C:\Users\gabriel.goldman\OneDrive - FEDERACAO PAULISTA DE FUTEBOL\Área de Trabalho\Python\Ecommerce\SQL_Ecommerce.csv"
+caminho_arquivo = r"C:\Users\gabriel.goldman\Área de Trabalho\Python\Ecommerce\SQL_Ecommerce.csv"
 geral = pd.read_csv(caminho_arquivo, encoding= 'latin-1')
 geral.dtypes
 ecommerce = geral.drop(columns =['id_1', 'category_id', 'id_2','order_id', 'product_id','id_3','id_4','created_at_1','additionals' ] )
